@@ -1,8 +1,8 @@
 # 14. Write a Python program that accepts the user's first and last name and prints them in reverse order with a space between them.
 
 name = str(input('Please enter your First and Last Name together:'))
-for i in name[::-1]:
-    print(f"the reverse name is {i}")
+a = name[::-1]
+print(f"the reverse name is {a}")
 
 #----------------------------------------------------------------------------------------------
 # for i in name[::-1]:

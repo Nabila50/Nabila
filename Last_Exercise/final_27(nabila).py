@@ -1,0 +1,1 @@
+# Write a program to find the variance of elements in a list.

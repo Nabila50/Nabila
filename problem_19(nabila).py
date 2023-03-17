@@ -2,9 +2,10 @@
 #Test Data : amt = 10000, int = 3.5, years = 7
 #Expected Output: 12722.79
 
-amount = float(input('enter your amount'))
-interest = float(input('enter the amount of intereset'))
-years = int(input('how many years?'))
+amt = [10000]
+interest = [3.5]
+years = 7
 
-value = amount * (1+interest/100) ** years
-print(f"future value will be {value}")
+for i in amt:
+    if i >= 10000*3.5:
+        print(f"the total amount with interest is {i}")
